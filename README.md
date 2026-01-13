@@ -1,9 +1,10 @@
-
 # Terraform Spring Boot
 
 ## Introduction
 
 This repository is for Spring Boot Starters of Terraform client.
+
+> **Note**: This library supports both [OpenTofu](https://opentofu.org/) and Terraform. OpenTofu is an open-source fork of Terraform and is a drop-in replacement. The library will work with whichever executable (`tofu` or `terraform`) is available in your PATH.
 
 ## How to use it
 
@@ -103,3 +104,12 @@ provided by the bot. You will only need to do this once across all repos using o
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## Documentation
+
+Full documentation for this project is available at [https://thomasvincent.github.io/terraform-spring-boot/](https://thomasvincent.github.io/terraform-spring-boot/)
+
+To view the documentation locally:
+```bash
+mkdocs serve
+```
