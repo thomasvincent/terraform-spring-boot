@@ -35,4 +35,9 @@ target/
 # Terraform
 *.tfstate
 *.tfstate.backup
+*.tfvars
+*.auto.tfvars
 .terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
